@@ -1,17 +1,31 @@
 {
   "name": "bower-dependencies-collector",
   "version": "1.0.0",
-  "repository": {},
   "description": "Tool for collecting an overview about all metadata to the dependencies in a list of several bower.json files.",
-  "private": false,
-  "license": "MIT",
+  "main": "collectBowerMetadata.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dennissterzenbach/bower-dependencies-collector.git"
+  },
+  "keywords": [
+    "bower",
+    "collector",
+    "analyzer",
+    "csv",
+    "json"
+  ],
   "author": "Dennis Sterzenbach <dennis.sterzenbach@gmail.com>",
-  "homepage": "https://github.com/dennissterzenbach/bower-dependencies-collector",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dennissterzenbach/bower-dependencies-collector/issues"
+  },
+  "homepage": "https://github.com/dennissterzenbach/bower-dependencies-collector#readme",
   "devDependencies": {},
   "engines": {
     "node": ">=0.10.0"
   },
-  "scripts": {},
   "files": [
     "collectBowerMetadata.js",
     "output.js",
